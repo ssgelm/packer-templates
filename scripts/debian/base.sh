@@ -16,3 +16,6 @@ GRUB_CMDLINE_LINUX="debian-installer=en_US"
 EOF
 
 update-grub
+
+# Install prereqs for vmware tools
+apt-get install -y dkms linux-headers-amd64
